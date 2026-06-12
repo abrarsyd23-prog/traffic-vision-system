@@ -1,0 +1,26 @@
+# Web app
+streamlit==1.33.0
+Pillow==10.3.0
+
+# Computer vision
+opencv-python==4.9.0.80
+numpy==1.26.4
+
+# Object detection — YOLOv8
+ultralytics==8.2.0
+
+# PyTorch — pinned to 2.4.0 (2.5+ breaks YOLOv8 weight loading)
+torch==2.4.0
+torchvision==0.19.0
+
+# Face detection
+mediapipe==0.10.14
+
+# Report/training utilities
+matplotlib==3.8.4
+seaborn==0.13.2
+pyyaml==6.0.1
+tqdm==4.66.4
+
+# Fine-tuning
+roboflow==1.1.48

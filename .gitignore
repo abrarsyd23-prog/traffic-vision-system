@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.Python
+venv/
+.venv/
+models/*.pt
+models/*.pth
+data/sample_images/*
+data/sample_videos/*
+!data/sample_images/.gitkeep
+!data/sample_videos/.gitkeep
+.DS_Store
+.ipynb_checkpoints/
+*.tmp
+.streamlit/secrets.toml
+!models/yolov8n_traffic.pt
