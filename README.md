@@ -44,8 +44,11 @@ traffic-vision-system/
 ## Setup & Run
 
 ```bash
+## Setup & Run
+
+```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/traffic-vision-system.git
+git clone https://github.com/abrarsyd23-prog/traffic-vision-system.git
 cd traffic-vision-system
 
 # 2. Create virtual environment
@@ -59,6 +62,10 @@ pip install -r requirements.txt
 # 4. Run the app
 streamlit run app.py
 ```
+
+Open **http://localhost:8501** in your browser.
+
+**Troubleshooting:** If you get a `ModuleNotFoundError` (e.g. "No module named 'ultralytics'"), run the app with `python3 -m streamlit run app.py` instead. This forces Streamlit to use the virtual environment's Python where the dependencies are installed.
 
 Open **http://localhost:8501** in your browser.
 
